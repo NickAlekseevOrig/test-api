@@ -1,0 +1,134 @@
+body {
+  margin: 0;
+  background-color: #d9d9d9;
+  /*zoom: 4;*/
+}
+
+.montserrat-normal-400-14px {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  color: #43424E;
+}
+
+.montserrat-normal-700-30px {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  color: #00A254;
+}
+
+.montserrat-normal-800-28px {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 28px;
+  text-align: center;
+  color: #212233;
+}
+
+#short-code-lev0-container {
+  width: 100%;
+  height: 349px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #FBFCFF;
+}
+
+#short-code-lev1-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+#short-code-lev1-container-popup {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+  justify-content: center;
+}
+
+#short-code-lev2-container {
+  width: 332px;
+  height: 202px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  background: #FFFFFF;
+  box-shadow: 0 0 10px #797C8D26;
+  border-radius: 5px;
+}
+
+#short-code-lev3-container {
+  width: 165px;
+  height: 114px;
+  border: 3px solid #00A254;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#btn-continue-container {
+  width: 405px;
+  height: 85px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#btn-continue {
+  width: 374px;
+  height: 77px;
+  background-color: #00A254;
+  border-radius: 15px;
+  color: #FFFFFF;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+#btn-continue:hover,
+#btn-continue:active {
+  background-color: #04D671
+}
+
+/*---------------- Animations* ----------------*/
+
+#btn-continue {
+  animation: pulse-animation 1.5s ease-in-out infinite;
+}
+
+#btn-continue:hover,
+#btn-continue:active {
+  animation: none;
+}
+
+@keyframes pulse-animation {
+  from {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.07);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+
+
